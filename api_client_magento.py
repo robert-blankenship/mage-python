@@ -1,9 +1,10 @@
 import suds
 import pprint
 
+p = pprint.PrettyPrinter()
+
 from suds.client import Client
 from suds.xsd.doctor import ImportDoctor, Import
-
 
 #I have no idea why this is necessary, but it is.
 importedEncoding = Import('http://schemas.xmlsoap.org/soap/encoding/')
@@ -17,10 +18,63 @@ client = Client(storeWSDL, doctor=weirdFix)
 user = 'python_client'
 password = 'N28ju8O3L74gje9jZI91R2qQgVNv4ubs'
 
+print 'starting session'
 session = client.service.login(user, password)
 
-categoryInfo = client.service.call(session, 'category.info', 8)
-category = client.service.call(session, 'category.assignedProducts', 8)
+print 'getting catalog info'
+# categoryInfo = client.service.call(session, 'category.tree')
+# category = client.service.call(session, 'category.assignedProducts', 5)
+product = client.service.call(session, 'product.info', 36)
 
-print categoryInfo
-print category
+class kosherFactory():
+
+	def convert_list(self, obj):
+		newObj = list()
+
+		if len(obj) == 1:
+			return self.convert(obj[0])
+
+		for elem in obj:
+			newObj.append(self.convert(elem))
+
+		return newObj		
+
+	def convert_faux_obj(self, item):
+		newObj = {}
+		
+		for elem in item:
+
+			key = str(self.convert(elem.key))
+			value = self.convert(elem.value)
+
+			newObj[key] = value
+
+		return newObj
+
+	def convert(self, obj):
+		if type(obj) is list:
+			return self.convert_list(obj)
+
+		if type(obj) is int:
+			return obj
+
+		if type(obj) is str:
+			return obj
+
+		if type(obj) is dict:
+			return obj
+
+		if obj is None:
+			return None
+
+		if 'item' in dir(obj):
+			return self.convert_faux_obj(obj.item)
+		else:
+			return obj
+
+
+kosherFact = kosherFactory()
+
+out = kosherFact.convert(product)
+
+p.pprint(out)
