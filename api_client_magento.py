@@ -10,13 +10,13 @@ from suds.xsd.doctor import ImportDoctor, Import
 importedEncoding = Import('http://schemas.xmlsoap.org/soap/encoding/')
 weirdFix = ImportDoctor(importedEncoding)
 
-#The wsdl.
+#The wsdl. Replace "respectable-tobacco.com" with your domain.
 storeWSDL = "http://respectable-tobacco.com/index.php/api/soap/index/?wsdl"
 
 client = Client(storeWSDL, doctor=weirdFix) 
 
-user = 'python_client'
-password = 'N28ju8O3L74gje9jZI91R2qQgVNv4ubs'
+user = 'python_client' #your username, need to create this in magento.
+password = 'N28ju8O3L74gje9jZI91R2qQgVNv4ubs' #your password for the user.
 
 print 'starting session'
 session = client.service.login(user, password)
