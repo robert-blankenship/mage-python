@@ -1,0 +1,104 @@
+starting session
+getting product.info info 36
+{'categories': 5,
+ 'category_ids': 5,
+ 'country_of_manufacture': None,
+ 'created_at': 2014-09-10T17:32:10-07:00,
+ 'custom_design': None,
+ 'custom_design_from': None,
+ 'custom_design_to': None,
+ 'custom_layout_update': None,
+ 'description': desc.,
+ 'gift_message_available': None,
+ 'group_price': [],
+ 'has_options': 1,
+ 'image_label': None,
+ 'is_recurring': 0,
+ 'meta_description': None,
+ 'meta_keyword': None,
+ 'meta_title': None,
+ 'minimal_price': None,
+ 'msrp': None,
+ 'msrp_display_actual_price_type': 4,
+ 'msrp_enabled': 2,
+ 'name': simple product w/ custom options,
+ 'news_from_date': None,
+ 'news_to_date': None,
+ 'old_id': None,
+ 'options_container': container1,
+ 'page_layout': None,
+ 'price': 1.2000,
+ 'product_id': 36,
+ 'recurring_profile': None,
+ 'required_options': 1,
+ 'set': 4,
+ 'short_description': short,
+ 'sku': 123123123,
+ 'small_image_label': None,
+ 'special_from_date': None,
+ 'special_price': None,
+ 'special_to_date': None,
+ 'status': 1,
+ 'tax_class_id': 0,
+ 'thumbnail_label': None,
+ 'tier_price': [],
+ 'type': simple,
+ 'type_id': simple,
+ 'updated_at': 2014-10-10 00:35:52,
+ 'url_key': simple-product-w-custom-options,
+ 'url_path': simple-product-w-custom-options.html,
+ 'visibility': 4,
+ 'websites': 1,
+ 'weight': 1.0000}
+<div class="highlight"><pre><span class="p">{</span><span class="s">&#39;categories&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+ <span class="s">&#39;category_ids&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+ <span class="s">&#39;country_of_manufacture&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;created_at&#39;</span><span class="p">:</span> <span class="mi">2014</span><span class="o">-</span><span class="mi">09</span><span class="o">-</span><span class="mi">10</span><span class="n">T17</span><span class="p">:</span><span class="mi">32</span><span class="p">:</span><span class="mi">10</span><span class="o">-</span><span class="mo">07</span><span class="p">:</span><span class="mo">00</span><span class="p">,</span>
+ <span class="s">&#39;custom_design&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;custom_design_from&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;custom_design_to&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;custom_layout_update&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;description&#39;</span><span class="p">:</span> <span class="n">desc</span><span class="o">.</span><span class="p">,</span>
+ <span class="s">&#39;gift_message_available&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;group_price&#39;</span><span class="p">:</span> <span class="p">[],</span>
+ <span class="s">&#39;has_options&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+ <span class="s">&#39;image_label&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;is_recurring&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+ <span class="s">&#39;meta_description&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;meta_keyword&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;meta_title&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;minimal_price&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;msrp&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;msrp_display_actual_price_type&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+ <span class="s">&#39;msrp_enabled&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+ <span class="s">&#39;name&#39;</span><span class="p">:</span> <span class="n">simple</span> <span class="n">product</span> <span class="n">w</span><span class="o">/</span> <span class="n">custom</span> <span class="n">options</span><span class="p">,</span>
+ <span class="s">&#39;news_from_date&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;news_to_date&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;old_id&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;options_container&#39;</span><span class="p">:</span> <span class="n">container1</span><span class="p">,</span>
+ <span class="s">&#39;page_layout&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;price&#39;</span><span class="p">:</span> <span class="mf">1.2000</span><span class="p">,</span>
+ <span class="s">&#39;product_id&#39;</span><span class="p">:</span> <span class="mi">36</span><span class="p">,</span>
+ <span class="s">&#39;recurring_profile&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;required_options&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+ <span class="s">&#39;set&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+ <span class="s">&#39;short_description&#39;</span><span class="p">:</span> <span class="n">short</span><span class="p">,</span>
+ <span class="s">&#39;sku&#39;</span><span class="p">:</span> <span class="mi">123123123</span><span class="p">,</span>
+ <span class="s">&#39;small_image_label&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;special_from_date&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;special_price&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;special_to_date&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;status&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+ <span class="s">&#39;tax_class_id&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+ <span class="s">&#39;thumbnail_label&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+ <span class="s">&#39;tier_price&#39;</span><span class="p">:</span> <span class="p">[],</span>
+ <span class="s">&#39;type&#39;</span><span class="p">:</span> <span class="n">simple</span><span class="p">,</span>
+ <span class="s">&#39;type_id&#39;</span><span class="p">:</span> <span class="n">simple</span><span class="p">,</span>
+ <span class="s">&#39;updated_at&#39;</span><span class="p">:</span> <span class="mi">2014</span><span class="o">-</span><span class="mi">10</span><span class="o">-</span><span class="mi">10</span> <span class="mo">00</span><span class="p">:</span><span class="mi">35</span><span class="p">:</span><span class="mi">52</span><span class="p">,</span>
+ <span class="s">&#39;url_key&#39;</span><span class="p">:</span> <span class="n">simple</span><span class="o">-</span><span class="n">product</span><span class="o">-</span><span class="n">w</span><span class="o">-</span><span class="n">custom</span><span class="o">-</span><span class="n">options</span><span class="p">,</span>
+ <span class="s">&#39;url_path&#39;</span><span class="p">:</span> <span class="n">simple</span><span class="o">-</span><span class="n">product</span><span class="o">-</span><span class="n">w</span><span class="o">-</span><span class="n">custom</span><span class="o">-</span><span class="n">options</span><span class="o">.</span><span class="n">html</span><span class="p">,</span>
+ <span class="s">&#39;visibility&#39;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+ <span class="s">&#39;websites&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+ <span class="s">&#39;weight&#39;</span><span class="p">:</span> <span class="mf">1.0000</span><span class="p">}</span>
+</pre></div>
+
